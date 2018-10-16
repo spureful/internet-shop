@@ -1,0 +1,105 @@
+.promo {
+	background-color: #fff;
+	padding: 10px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+	margin-bottom: 15px;
+}
+
+.promo__main {
+	position: relative;
+	width: 650px;
+	min-height: 263px;
+}
+
+.promo__big-img {
+	width: 100%;
+	height: 100%;
+}
+
+.promo__main-descr {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+	padding-left: 5px;
+
+	background-color: rgba(#fff, 0.7);
+}
+
+.promo__main-title {
+
+	color: #2c2b2b;
+	font-family: "kaff";
+	font-size: 17px;
+
+	line-height: 33px;
+	text-transform: uppercase;
+
+	letter-spacing: 0.42px;
+}
+
+.promo__main-content {
+
+
+	color: #191919;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.promo__main-link {
+	color: #191919;
+	font-family: Verdana;
+	font-size: 10px;
+
+	line-height: 12px;
+	text-decoration: none;
+}
+
+.promo__aside {
+	margin-left: 7px;
+
+}
+
+.promo__aside-block {
+	border-bottom: 1px dashed #d8d8d8;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+	padding: 10px;
+	&:first-child {
+		padding-top: 0;
+	}
+	&:last-child {
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+}
+
+.promo__aside-img {
+	width: 60px;
+	height: 50px;
+	margin-right: 15px;
+}
+
+.promo__aside-descr {
+	/* Style for "Sed imperd" */
+//width: 161px;
+//height: 35px;
+color: #717171;
+font-family: "kaff";
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+/* Text style for "S, ed impe" */
+letter-spacing: 0.42px;
+}

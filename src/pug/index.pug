@@ -1,0 +1,44 @@
+include common/_mixins.pug
+block variables
+
+doctype html
+html(lang="Ru ru")
+	head
+		meta(charset="utf-8")
+		meta(content="ie=edge" http-equiv="x-ua-compatible")
+		meta(content="width=device-width, initial-scale=1" name="viewport")
+		title 
+		link(rel='stylesheet' href='css/main.css')
+	
+	body
+		
+		.wrapper
+			include common/header.pug
+			.container
+				.logo THREEZINE	
+				include common/menu.pug
+				include common/promo.pug
+				
+				main.main
+					aside.aside-left
+						include common/recent-posts.pug
+						include common/popular-posts.pug
+						include common/recent-comments.pug
+						include common/flickr.pug
+						include common/twıtter.pug
+					.maincontent
+						include common/main-block.pug
+						include common/main-block.pug
+					aside.aside-right
+						include common/search.pug
+						include common/featured-posts.pug
+						include common/tags.pug
+						include common/archives.pug
+						include common/advertisement.pug
+						
+			include common/footer.pug		
+					
+	
+	
+	script(src='js/main.js')
+

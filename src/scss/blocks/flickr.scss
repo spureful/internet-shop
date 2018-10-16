@@ -1,0 +1,20 @@
+
+.flickr__block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.flickr__img-block {
+	
+width: 60px;
+height: 50px;
+background-color: #e8e8e8;
+
+	margin-bottom: 15px;
+
+	
+}

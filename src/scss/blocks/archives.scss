@@ -1,0 +1,16 @@
+.archives__item {
+	display: block;
+	margin-bottom: 15px;
+
+	color: #717171;
+	font-family: Verdana;
+	font-size: 11px;
+
+	text-decoration: none;
+	
+	transition: 0.8s;
+	
+	&:hover {
+		text-decoration: underline;
+	}
+}

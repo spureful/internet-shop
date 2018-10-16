@@ -1,0 +1,104 @@
+body,
+html {
+	height: 100%;
+
+
+	@include phone {
+		min-width: 320px;
+	}
+}
+
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px; //	line-height: 1.42;
+	//	color: $text-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* Style for "Background" */
+	background-color: #e9e9e9;
+
+	@include phone {
+		font-size: 14px;
+	}
+}
+
+
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.77);
+	color: #909090;
+
+	font-family: "Graublau Web";
+	font-size: 38px;
+	font-weight: 700;
+
+	text-transform: uppercase;
+	
+	margin-bottom: 40px;
+
+}
+
+.main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+	margin-bottom: 50px;
+}
+.aside-left {
+	
+	
+	width: 25%;
+}
+
+.maincontent {
+
+	width: 50%;
+	margin: 0 15px;
+}
+
+.aside-right {
+	
+	width: 25%;
+}
+

@@ -1,0 +1,65 @@
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-Delicious {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.-Facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
+}
+
+.-Flickr {
+    width: 16px;
+    height: 16px;
+    background-position: -57px -5px;
+}
+
+.-Friendfeed {
+    width: 16px;
+    height: 16px;
+    background-position: -83px -5px;
+}
+
+.-Tumblr {
+    width: 16px;
+    height: 16px;
+    background-position: -109px -5px;
+}
+
+.-Twitter {
+    width: 16px;
+    height: 16px;
+    background-position: -135px -5px;
+}
+
+.-admin {
+    width: 14px;
+    height: 12px;
+    background-position: -161px -5px;
+}
+
+.-comment {
+    width: 15px;
+    height: 12px;
+    background-position: -185px -5px;
+}
+
+.-date {
+    width: 14px;
+    height: 14px;
+    background-position: -210px -5px;
+}
+
+.-link {
+    width: 12px;
+    height: 12px;
+    background-position: -234px -5px;
+}
